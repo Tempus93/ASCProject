@@ -1,0 +1,10 @@
+import math
+print('what is your A ,B and your C?')
+
+A = input('Your A is:')
+B = input('Your B is:')
+C = input('Your C is:')
+
+X1 = (-int(B) - math.sqrt(int(B) ** 2 - 4 * int(A) * int(C))) / 2 * int(C)
+X2 = (-int(B) + math.sqrt(int(B) ** 2 - 4 * int(A) * int(C))) / 2 * int(C)
+print('Your Zeros are '+str(X1)+' and '+str(X2)+'.')
