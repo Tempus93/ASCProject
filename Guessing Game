@@ -1,0 +1,19 @@
+import random
+
+number = random.randint(1, 10)
+NumberOfGuesses = 0
+player_name = input('Hi, what is your name?')
+
+print(' Oh hi' + player_name + ' !, can you guesses the correct number?')
+
+while NumberOfGuesses < 5:
+    guess = str(input())
+    NumberOfGuesses += 1
+    if guess < str(number):
+        print('your number is below the number')
+    elif guess > str(number):
+        print(' your number is above the number')
+    elif guess == str(number):
+        print(' your guessed correct! it is ' + str(number) + ' !')
+    else:
+        print('sorry, you ran out of guesses. the number was ' + str(number) + '.')
