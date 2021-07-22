@@ -3,9 +3,9 @@ from selenium import webdriver
 
 link = "https://docs.google.com/forms/d/e/1FAIpQLSf9EaaipHfz1xA7Uw2SOUFE-tnCcllF-4mF5YsdCAO0r3EslA/viewform"
 data = {
-    "Email": "justind3299@hillcresths.org",
-    "Pass": "216043299",
-    "ID": "216043299",
+    "Email": "",
+    "Pass": "",
+    "ID": "",
     "First": "Justin",
     "Last": "Downer",
     "Contact ": "N/A"
