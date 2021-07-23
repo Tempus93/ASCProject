@@ -59,12 +59,11 @@ function draw(){
     if(myleft > enright || myright < enleft || mytop > enbottom || mybottom < entop){
         fill('yellow')
         textSize(22)
-        text("No Collision",190,480)
+        text("No Collision",190,480);
     }
 
     else{    
-        fill("red")
-        textSize(22)
-        text("THERES COLLISION!!!",140,480);
+        enXpos = random(1,500);
+        enYpos = random(1,500);
     }    
 }
