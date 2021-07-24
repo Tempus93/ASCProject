@@ -1,12 +1,18 @@
-// state
-let state = "main_menu";
+// Game States
+const states = {
+  MainMenu: "MainMenu",
+  Game: "Game",
+  Paused: "Paused",
+  Win: "Winner",
+  Lose: "Loser"
+}
+
+let mode = states.MainMenu
 
 // Main Menu Image Variables
 let bg; 
 let title;
 let T2;
-
-// Game Image Variables\
 
 // moves
 const moves = ["Fire","Water","Grass"];
@@ -17,7 +23,7 @@ const images = {
   Water: "Blastoise",
   Grass: "Ivysaur",
   computer: "trainer",
-  player: "ash"
+  player: "You"
 };
 
 //score and counter
@@ -29,27 +35,72 @@ function preload() {
   bg = loadImage('images/bg.jpg');
   title = loadImage('images/T2.png')
   T2  = loadImage('images/T1.png')
+  Start = loadImage("images/Start.png")
   
 }
 
 function setup() {
   createCanvas(500,500);
-  noStroke();
+  imageMode(CORNER);
+
+  
 
 }
 
 function draw() {
-  if(state == "main_menu") {
-    background(bg);
-  
-  imageMode(CENTER);
-  image(title,240,60,300,100);
-  image(T2,250,140,300,100);
-  }
 
+  console.log(mode);
+  background(bg);
+  if(mode == states.MainMenu) {
+
+    //"Pokemon Rock Paper Scissors!" image
+    image(title,100,60,300,100);
+    image(T2,110,150,300,100);
+    
+    // Start Image
+    image(Start,110,300,300,100);
+  }
+ if(mode == states.Game){
+
+  fill("black")
+  textSize(50)
+  text("Game",170,250);
+
+ }
+
+ if(mode == states.Paused) {
+
+  fill("Black");
+  textSize(50);
+  text("Paused", 150,250);
+
+   
+  
+  
+ }
 
 }
 
 function mouseClicked() {
 
 }
+
+function keyPressed() {
+  if(keyCode == ENTER && mode == states.MainMenu){
+    mode = states.Game;
+    if(keyCode != ENTER) {
+      mode = states.MainMenu
+    }
+  }
+
+  
+
+  if(keyCode === ESCAPE && mode == states.Game){
+    mode = states.Paused;
+  }
+
+  else{
+    mode = states.Game;
+  }
+}
+
