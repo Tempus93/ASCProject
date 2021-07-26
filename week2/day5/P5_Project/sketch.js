@@ -35,7 +35,6 @@ const selection = [
         image:  poke_grass,
         beats:  "Blastoise"
     } 
-    
 ]
 
 
@@ -119,7 +118,4 @@ function mouseClicked(){
     else if(computer_selec.name == "Charzard"){
         image(poke_fire,305,310,80,80)
     }
-
-
-
 }
