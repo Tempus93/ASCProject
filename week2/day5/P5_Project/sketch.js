@@ -1,11 +1,3 @@
-// Game States
-const states = {
-    Game: 0,
-    Winner: 1,
-    Loser: 2
-}
-let state = states.Game;
-
 // Preload image files
 let bg;
 let title_1;
@@ -58,9 +50,6 @@ function randomSelec(){
     return selection[Random];
 }
 
-function isWinner(){
-
-}
 function setup() {
     createCanvas(700,700);
     background(bg);
