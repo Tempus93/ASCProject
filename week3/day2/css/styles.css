@@ -1,0 +1,15 @@
+h3 {
+    color:cadetblue;
+}
+
+body{   
+    text-align: center;
+    background:linear-gradient(to top,rgb(141, 39, 39), rgb(110, 110, 233));
+}
+
+p{
+    font-family: fantasy;
+    font-style: inherit;
+    font-size: large;
+
+}
