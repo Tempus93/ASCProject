@@ -1,0 +1,72 @@
+.introduction{
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+    background: rgba(124, 124, 245, 0.774);
+    
+}
+
+.list{
+    text-align: left;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#Starters{
+    border: 10px rgba(124, 124, 245, 0.774) ridge;
+}
+
+.all_pokemon_container{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.pokemon_names{
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.pokemon_description{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#bulbasaur_container{
+    background: lightgreen;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+
+
+}
+
+#charmander_container{
+    background: rgb(255, 131, 86);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+#squirtle_container{
+
+    background: lightblue;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+
+
+
+body{
+    color: white;
+    background: black;
+
+}
