@@ -8,6 +8,21 @@ h1{
     
 }
 
+
+#starters_image_div img{
+    border: 10px rgba(124, 124, 245, 0.774) ridge;
+
+}
+
+
+
+
+h2{
+    text-align: left;
+}
+
+
+
 .list{
     text-align: left;
     font-weight: bold;
@@ -16,7 +31,7 @@ h1{
 }
 
 #Starters{
-    border: 10px rgba(124, 124, 245, 0.774) ridge;
+    
 }
 
 .all_pokemon_container{
@@ -33,7 +48,7 @@ h1{
 
 .pokemon_description{
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
