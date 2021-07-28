@@ -1,10 +1,12 @@
 h3 {
-    color:cadetblue;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: cursive;
 }
 
 body{   
     text-align: center;
-    background:linear-gradient(to top,rgb(141, 39, 39), rgb(110, 110, 233));
+    background:linear-gradient(to top,rgb(124, 39, 141), rgb(110, 110, 233));
 }
 
 p{
@@ -12,4 +14,30 @@ p{
     font-style: inherit;
     font-size: large;
 
+
+}
+
+#eevee{
+    border: 10px ridge burlywood;
+    padding: 20px;
+}
+
+#vaporeon{
+    border: 10px ridge lightblue;
+    padding: 20px;
+}
+
+#jolteon{
+    border: 10px ridge lightyellow;
+    padding: 20px;
+}
+
+#flareon{
+    border: 10px ridge orangered;
+    padding: 20px;
+}
+
+ul{
+    text-align: center;
+    font-family: fantasy;
 }
