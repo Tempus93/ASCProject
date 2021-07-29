@@ -1,0 +1,23 @@
+div{
+    font-family: Helvetica; 	
+    background-color: #272D33;	
+    color: white;
+    font-size: 32px; 	
+    padding: 5px;
+
+}
+
+#Big_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 60px;
+}
+
+.items:hover{
+    background-color: gray  ;
+    border-radius: 25px;
+    opacity: 0.5;
+}
