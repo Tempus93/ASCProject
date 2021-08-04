@@ -1,8 +1,3 @@
-let left_side = document.querySelector("left_side");
+let right_side = document.getElementById("right_side");
 
-left_side.getElementsByClassName.backgroundColor = "#d3c26f";
-
-
-function mouseClicked(){
-    left_side.getElementsByClassName.backgroundColor = "#d3c26f";
-};
+right_side.style.backgroundColor = "#d3c26f";

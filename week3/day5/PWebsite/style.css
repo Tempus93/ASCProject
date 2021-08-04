@@ -44,6 +44,7 @@ body{
 .About{
     border: 5px black ridge;
     background-color: lightblue;
+    font-size: 130%;
     margin: 30px;
     border-radius: 30px ;
 }
@@ -73,19 +74,135 @@ body{
     margin: 10px;
 }
 
-@media(max-width: px){
+@media(max-width: 1200px){
 
     #Picture_Me{
         width: 50%;
     }
 
     #header{
-        width: 50%;
-        font-size: 50%;
+       
+ width: 93%;
+    }
+
+    .links{
+
+        font-size: 165%;
+    }
+
+    .intro{
+
+font-size: 165%;
+    }
+    
+    .About{
+        font-size: 140%;
+        display: flex;
+        flex-direction: column;
 
     }
 
+    #Example_Pictures{
+        justify-content: center;
+        margin: 20px;
+    }
+
+    #Example_Pictures img{
+        
+        max-width: 245px;
+        max-height: 240px;
 
 
-    
+
+    }
 }
+
+
+@media(max-width: 1030px){
+
+    #Picture_Me{
+        width: 50%;
+    }
+
+    #header{
+       
+ width: 93%;
+    }
+
+    .links{
+
+        font-size: 165%;
+    }
+
+    .intro{
+
+font-size: 165%;
+    }
+    
+    .About{
+        font-size: 140%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #Example_Pictures{
+        justify-content: center;
+        margin: 20px;
+    }
+
+    #Example_Pictures img{
+        
+        max-width: 245px;
+        max-height: 240px;
+
+
+
+    }
+}
+
+
+@media(max-width: 780px){
+    
+    #Picture_Me{
+        width: 50%;
+    }
+
+    #header{
+       
+ width: 90%;
+    }
+
+    .links{
+
+        font-size: 180%;
+    }
+
+    .intro{
+
+        font-size: 140%;
+    }
+    
+    .About{
+        font-size: 130%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #Example_Pictures{
+        justify-content: center;
+        flex-direction: row;
+        margin: 5px;
+    }
+
+    #Example_Pictures img{
+        
+        max-width: 200px;
+        max-height: 150px;
+
+
+
+    }
+}
+
