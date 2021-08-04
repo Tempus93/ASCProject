@@ -7,8 +7,12 @@
 
 // 1) In "index.html", create an empty `div` with an id of "gridDiv"
 
+
 // 2) create a variable "gridDiv" and use the DOM to store the div you
 // just made into it
+
+let gridDiv = document.querySelector("#gridDiv");
+heroCreator.populateGrid(gridDiv,heroes);
 
 // 3) call the method "heroCreator.populateGrid()" and provide it with
 // 2 arguments, the "gridDiv" variable you just made, and the "heroes"
