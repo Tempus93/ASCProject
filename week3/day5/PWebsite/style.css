@@ -206,3 +206,47 @@ font-size: 165%;
     }
 }
 
+@media(max-width: 500px){
+
+    #Picture_Me{
+        width: 50%;
+    }
+
+    #header{
+       
+         width: 84%;
+    }
+
+    .links{
+
+        font-size: 120%;
+    }
+
+    .intro{
+
+        font-size: 115%;
+    }
+    
+    .About{
+        font-size: 110%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #Example_Pictures{
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    #Example_Pictures img{
+        
+        max-width: 260px;
+        max-height: 240px;
+
+
+
+    }
+
+}
