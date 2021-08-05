@@ -47,7 +47,7 @@ heroCreator.populateGrid = function(gridDiv, hero_array){
 // NOTE: I HIGHLY recommend testing your code in the browser
 // The "sombra" hero object already exists, so you can use it for
 // testing!
-
+console.log(charSheet);
 /**
  * 1) This method should take 1 argument, a hero object.
  * 

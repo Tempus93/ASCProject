@@ -11,8 +11,7 @@
 // 2) create a variable "gridDiv" and use the DOM to store the div you
 // just made into it
 
-let gridDiv = document.querySelector("#gridDiv");
-heroCreator.populateGrid(gridDiv,heroes);
+const gridDiv = document.querySelector("#gridDiv");
 
 // 3) call the method "heroCreator.populateGrid()" and provide it with
 // 2 arguments, the "gridDiv" variable you just made, and the "heroes"
@@ -21,6 +20,7 @@ heroCreator.populateGrid(gridDiv,heroes);
 // files. If those parts are working correctly, there shouldn't be
 // an error.
 
+heroCreator.populateGrid(gridDiv,heroes)
 // We'll be using a CSS Grid layout to display elements.
 // Flex-box works in 1 dimension, using a row or column.
 // Think of grid as a 2 dimensional flex-box, using rows and columns!

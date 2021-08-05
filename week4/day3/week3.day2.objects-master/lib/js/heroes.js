@@ -188,6 +188,8 @@ const dVa = {
 
 // 2) Create an array called "heroes" and store all of the hero object in the array
 
+const heroes =[lucio,dVa,doomfist,sombra];
+
 // 3) In "index.html", create a form that allows the user to create 
 // and add a new hero (add it under the "#gridDiv").
 // For simplicity, the form should just include: name, type, difficulty, and saying
