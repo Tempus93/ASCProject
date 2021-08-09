@@ -70,7 +70,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: url("images/Pic.JPG") center;
+    background: url("images/Pic.JPG") no-repeat center;
+    background-size: cover;
     padding: auto;
     height: 200vh;
     color: white;
@@ -118,9 +119,18 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
+
+#About .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
 #About #title{
     font-size: 100px;
     border: #677AFE  10px solid;
+    margin-top: -950px ;
 
 }
 
@@ -129,12 +139,94 @@
 
 }
 
-#About .text{
+/* Projects section */
+#Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("images/giga.JPG") no-repeat center;
+    background-size: cover;
+    padding: auto;
+    height: 200vh;
+    color: white;
+    min-height: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+#Projects .text{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 50px;
 }
+
+#Projects #title{
+    border: #677AFE  10px solid;
+
+}
+
+#Projects #spacer{
+    padding-bottom: 190px ;
+
+}
+
+/* Project Containers */
+#project_containers #info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: #677AFE solid 10px;
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 50%;
+
+}
+
+#project_containers #img{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 40px;
+    transition: 0.3s ease-in;
+}
+
+#project_containers #img:hover{
+    width: 250px;
+    height: 250px;
+}
+#project_containers #name{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 150%;
+    text-decoration: underline 2px #677AFE;
+}
+
+#project_containers #description_title{
+    font-size: 130%;
+    text-decoration: underline 2px #677AFE;
+    margin-bottom: 10px;
+}
+
+#project_containers #description_text{
+    font-size: 120%;
+    margin: 20px;
+}
+
+#project_containers #experience_title{
+    font-size: 130%;
+    text-decoration: underline 2px #677AFE;
+    margin-bottom: 10px;
+}
+
+#project_containers #experience_text{
+    font-size: 120%;
+    margin: 20px;
+}
+
+
+
 
 
 /* family? section */
@@ -151,3 +243,4 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
+
